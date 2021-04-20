@@ -1,0 +1,10 @@
+<div class="entrie">
+  <ng-container *ngIf="entries$ | async as entries; else loading">
+    <app-entrie-item *ngFor="let entrie of entries"
+      [entrie]="entrie">
+    </app-entrie-item>
+  </ng-container>
+  <ng-template #loading>
+    Loading...
+  </ng-template>
+</div>

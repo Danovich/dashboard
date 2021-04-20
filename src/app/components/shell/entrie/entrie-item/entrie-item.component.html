@@ -1,0 +1,9 @@
+<div class="entrie-item-card">
+  <h1>{{entrie.API}}</h1>
+  <p>{{entrie.Description | slice:0:35}}</p>
+  <a href={{entrie.Link}} target="_blank" rel="noopener">View docs</a>
+  <div class="control">
+    <button>{{entrie.Category}}</button>
+    <button>{{entrie.HTTPS ? 'HTTPS' : 'HTTP'}}</button>
+  </div>
+</div>

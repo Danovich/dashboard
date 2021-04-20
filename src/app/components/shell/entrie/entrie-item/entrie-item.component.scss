@@ -1,0 +1,21 @@
+:host {
+  width: 350px;
+  height: 300px;
+  margin: 10px;
+}
+
+.entrie-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+
+  .control {
+    display: flex;
+    justify-content: space-between;
+  }
+}
